@@ -1,0 +1,57 @@
+.general-block{
+  position: relative;
+  margin: 0 auto;
+  width: 700px;
+  height: 250px;
+  background:black;
+  display: grid;
+  grid-template-columns: 200px 270px 199px;
+  grid-auto-rows: 310px 135px 178px;
+  border: 2px solid black;
+}
+.one-block{
+  background: red;
+  width: 200px;
+  position: relative;
+  height: 250px;
+}
+.second-block{
+  background: blue;
+  width: 254px;
+  position: relative;
+  height: 40px;
+}
+.third-block{
+    background: green;
+    position: relative;
+    width: 246px;
+    height: 40px;
+    right: 16px;
+}
+.fourth-block{
+    background: purple;
+    position: absolute;
+    top: 40px;
+    width: 500px;
+    height: 170px;
+    left: 0;
+    margin: 0 auto;
+    right: -200px;
+    bottom: 0px;
+}
+.fifth-block{
+    background: #C4A484;
+    width: 255px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 245px;
+}
+.six-block{
+  background: #FFFFE0;
+  width: 245px;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
